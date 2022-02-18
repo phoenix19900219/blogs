@@ -43,6 +43,13 @@ The minimum required scopes are 'repo', 'read:org', 'workflow'.
 ✓ Configured git protocol
 ✓ Logged in as phoenix19900219
 
+# 输入 "gh auth login" 后, 需要你选择4个选项, 这个四个选项如下:
+? What account do you want to log into? GitHub.com
+? What is your preferred protocol for Git operations? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI? Login with a web browser
+# 注意: 最后一个要选 "Paste an authentication token", 而不是 "Login with a web browser"
+
 
 # 4. push 代码到 github
 $ git push # OK
