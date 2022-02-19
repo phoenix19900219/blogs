@@ -8,7 +8,7 @@
 
 <br/>
 
-###一、问题
+### 一、问题
 
 我使用ssh-keygen生成了钥匙对，后把公钥分别复制到了gitee和github，然后我开始测试。
 
@@ -104,6 +104,8 @@ Hi phoenix19900219! You've successfully authenticated, but GitHub does not provi
 ### 四、总结
 
 多个代码托管平台（gitee、github，gitcode，gitlab，自己架设的代码托管平台 ......）配置SSH Key的时候由于 `~/.ssh/known_hosts` 文件的冲突，可能导致一些托管平台无法访问。
+
+<br/>
 
 解决办法是：
 
